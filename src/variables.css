@@ -1,0 +1,81 @@
+:root {
+  --bg-black: #000;
+  --bg-white: #FFF;
+  --bg-red-angular: #AC4D54;
+  --text-dark-gray: #505050;
+  --text-light-gray: #A7A7A7;
+
+
+
+
+
+
+
+
+
+  --bg-footer: #D1DDF2;
+  --bg-footer-frase: #B7C6E1;
+  --bg-body-color: #F8F9FC;
+  --bg-cel: #DDEDFF;
+  --bg-white-opacity: #F0F8FF;
+  --bg-article: #FBFBFB;
+  --bg-blue-light: #E7ECF5;
+  --bg-blue-extra-light: #F4F5F8;
+  --bg-color-table-prices-cell1: #F3F5FC;
+  --bg-color-table-prices-cell2: #E8ECF8;
+  --bg-color-table-prices-cell3: #FDFEFF;
+  --bg-mes-info: #E8ECF5;
+  --bg-mes-info-hover: #D6DCE5;
+  --bg-copy: rgba(90, 123, 184, .07);
+  --bg-copy-button: #EEF1F8;
+  --bg-diversitat: #368189;
+  --bg-diversitat-hover: #2D767E;
+  --bg-immersio: #9D66AF;
+  --bg-immersio-hover: #925DA3;
+  --bg-biblioteca: #9E6C0F;
+  --bg-biblioteca-hover: #8f610d;
+  --bg-opacitat-docent: #7B88CE;
+  --bg-button-close-modal: #212121;
+  --border-bottom-gray-extra-light: #EEE;
+  --border-bottom-gray: #E1E1E1;
+  --border-separacio-apartats: #CDCDCD;
+  --border-bottom-gray-shadow: #D6D4D5;
+  --border-table-prices: #DBE4F2;
+  --border-copy-focus: #CFD9ED;
+  --border-color-nou: #EF4646;
+  --border-footer: #8299B3;
+
+  --text-hover-capcalera: #D6F2FF;
+  --text-gray: #6A6A6A;;
+  --text-blue-active: #3D5A92;
+  --text-blue-link: #496BAA;
+  --text-mes-info-hover: #40619E;
+  --text-mes-info: #4668A7;
+  --text-diversitat: #328B94;
+  --text-immersio: #8D54A0;
+  --text-biblioteca: #9E6C0F;
+  --text-plastica: #3F6D8C;
+  --text-competencia: #607352;
+  --text-button-close-modal: #F1F6FF;
+  --text-etiqueta-nou: #383737;
+  --text-footer: #3F5C8F;
+  --text-hover-footer: #0C2D66;
+  --text-footer-frase: #3B588F;
+  --box-shadow-curs: #ABABAB;
+  --boto-inscripcio: #C1525B;
+  --boto-inscripcio-before: #AC4D54;
+  --bg-accord: #D7DEEE;
+  --border-capcalera: #DDD;
+  --bg-capcalera-marcada: #E6EAF4;
+  --text-capcalera-marcada: #333;
+  --text-body-gray: #4E4E4E;
+  --bg-body-white: #FCFCFC;
+  --table-hover: #E7E6E6;
+  --table-striped-even: #F7F7F7;
+  --bg-icona-exclamation: #FDBB47;
+  --color-text-input: #555;
+  --color-label-input: #7A7A7A;
+  --color-label-input-hover: #8D9CB7;
+  --color-label-active: #B3B3B3;
+  --border-input: #CCC;
+}

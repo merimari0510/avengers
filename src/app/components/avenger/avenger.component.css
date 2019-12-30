@@ -1,0 +1,127 @@
+.container-iron-man {
+  background-image: url(../../../assets/img/portfolios/iron-man-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-captain-america {
+  background-image: url(../../../assets/img/portfolios/captain-america-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-thor {
+  background-image: url(../../../assets/img/portfolios/thor-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-hulk {
+  background-image: url(../../../assets/img/portfolios/hulk-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-black-widow {
+  background-image: url(../../../assets/img/portfolios/black-widow-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-hawkeye {
+  background-image: url(../../../assets/img/portfolios/hawkeye-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-vision {
+  background-image: url(../../../assets/img/portfolios/vision-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-quicksilver {
+  background-image: url(../../../assets/img/portfolios/quicksilver-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-scarlet-witch {
+  background-image: url(../../../assets/img/portfolios/scarlet-witch-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-ant-man {
+  background-image: url(../../../assets/img/portfolios/ant-man-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-doctor-strange {
+  background-image: url(../../../assets/img/portfolios/doctor-strange-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-spider-man {
+  background-image: url(../../../assets/img/portfolios/spider-man-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-black-panther{
+  background-image: url(../../../assets/img/portfolios/black-panther-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-falcon {
+  background-image: url(../../../assets/img/portfolios/falcon-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+.container-captain-marvel {
+  background-image: url(../../../assets/img/portfolios/captain-marvel-portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 0 80rem rgb(0, 0, 0);
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+blockquote p {
+  font-family: 'Kavoon', cursive;
+  font-size: 1.5rem;
+}
+
+.blockquote-footer {
+  font-family: 'Pangolin', cursive;
+  font-size: 1.3rem;
+}
+
+.blockquote-footer::after {
+    content: "\2014\00A0";
+}
+
+.container > p {
+  font-size: 1.5rem;
+}

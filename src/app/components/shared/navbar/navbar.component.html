@@ -1,0 +1,29 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo_avengers.png" width="170" height="50" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mt-2 mt-lg-0">
+      <li class="nav-item pr-3" routerLinkActive="active">
+        <a class="nav-link" [routerLink] = "['home']">Home</a>
+      </li>
+      <li class="nav-item pr-3" routerLinkActive="active">
+        <a class="nav-link" [routerLink] = "['avengers']">Avengers</a>
+      </li>
+      <li class="nav-item pr-3" routerLinkActive="active">
+        <a class="nav-link" [routerLink] = "['contact']">Contact</a>
+      </li>
+      <li class="nav-item pr-3" routerLinkActive="active">
+        <a class="nav-link" [routerLink] = "['about']">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Buscar avenger" (keyup.enter)="searchAvenger(searchText.value)" #searchText>
+      <button (click)="searchAvenger(searchText.value)" class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>

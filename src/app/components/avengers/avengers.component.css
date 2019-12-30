@@ -1,0 +1,17 @@
+.card-img-top {
+  border-radius: 0;
+  display: block;
+  opacity: 0.65;
+}
+
+.avenger {
+  background: black;
+}
+
+.avenger:hover {
+  cursor: pointer;
+}
+
+.avenger:hover img {
+  opacity: 1;
+}

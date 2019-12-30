@@ -1,0 +1,22 @@
+<!-- <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="container m-auto bg-light p-4">
+    <h1>Avengers</h1>
+
+  </div>
+</div> -->
+
+<div class="jumbotron jumbotron-fluid mt-76px mb-0 animated fadeIn fast">
+  <div class="container">
+    <h1 class="display-4">Avengers</h1>
+    <p class="lead">The Avengers are, today, the most famous Marvel superhero group.</p>
+  </div>
+</div>
+
+<!-- <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column"> -->
+<div class="containerfluid d-flex flex-column">
+  <div class="row m-0">
+    <div class="avenger col-sm-6 col-md-6 col-lg-4 col-xl-4 p-0" *ngFor="let avenger of avengers, let i = index ">
+      <a [routerLink] = "['/avenger',avenger.name_short]"><img class="card-img-top h-100 w-100" src="../../../assets/img/cards/{{ avenger.img_card }}" alt="{{ avenger.name }} Miniatura [100% x225]" data-holder-rendered="true"></a>
+    </div>
+  </div>
+</div>

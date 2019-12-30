@@ -1,0 +1,45 @@
+<div class="container-{{ avenger.name_short }} d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast"></div>
+<div class="bg-light d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast">
+  <div class="container m-auto bg-light p-4">
+    <h1>{{ avenger.name }}</h1>
+    <p>{{ avenger.description }}</p>
+  </div>
+</div>
+<div class="containerfluid d-flex flex-column">
+  <div class="row m-0">
+    <div class="avenger col-sm-6 col-md-6 col-lg-4 col-xl-4 p-0" *ngFor="let imatge_avenger of avenger.list_img, let i = index ">
+      <img class="card-img-top h-100 w-100" src="../../../assets/img/portfolios/{{ avenger.name_short }}/{{ imatge_avenger}}" alt="{{ avenger.name }} Miniatura [100% x225]" data-holder-rendered="true">
+    </div>
+  </div>
+</div>
+<div class="d-flex w-100 h-100 p-3 mx-auto flex-column bg-light">
+  <div class="container m-auto p-5 text-center">
+    <blockquote class="blockquote text-center p-3">
+      <p class="mb-0 pb-3">{{ avenger.cite }}</p>
+      <footer class="blockquote-footer"><cite title="{{ avenger.name }}">{{ avenger.name }} </cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+  <iframe src='https://www.youtube.com/embed/JgyyVFusnaA' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
+
+</div>
+
+<div class="bg-light d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast">
+  <div class="container m-auto bg-light p-4">
+    <h1>Peliculas donde {{ avenger.actor_name }} appears como {{ avenger.name }} </h1>
+    <div class="container d-flex flex-column">
+      <div class="row m-0">
+        <!-- <div class="avenger col-sm-6 col-md-6 col-lg-4 col-xl-4 p-0" *ngFor="let movie of avenger.list_movies_apears, let i = index ">
+          <img class="card-img-movie" src="../../../assets/img/movies/{{ movie.short_name }}" alt="{{ movie.name }}" data-holder-rendered="true">
+          <p>{{ movie.date.getYear() }} / {{ movie.name }} / {{ movie.}}</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+  <iframe src="https://www.youtube.com/embed/5-Cx7UslEuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
+</div>

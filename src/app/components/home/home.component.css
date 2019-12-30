@@ -1,0 +1,17 @@
+blockquote p {
+  font-family: 'Kavoon', cursive;
+  font-size: 2.5rem;
+}
+
+.blockquote-footer {
+  font-family: 'Pangolin', cursive;
+  font-size: 1.3rem;
+}
+
+.blockquote-footer::after {
+    content: "\2014\00A0";
+}
+
+.container > p {
+  font-size: 1.5rem;
+}
