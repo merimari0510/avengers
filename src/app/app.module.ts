@@ -16,6 +16,7 @@ import { AvengersComponent } from './components/avengers/avengers.component';
 import { AboutComponent } from './components/about/about.component';
 import { AvengerComponent } from './components/avenger/avenger.component';
 import { SearchComponent } from './components/search/search.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SearchComponent } from './components/search/search.component';
     AvengersComponent,
     AboutComponent,
     AvengerComponent,
-    SearchComponent
+    SearchComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
