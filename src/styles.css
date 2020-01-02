@@ -3,19 +3,11 @@
 html,
 body {
   height: 100%;
-  /*background-image: url(assets/img/555990.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9; */
 }
 
 body {
   background-color: var(--bg-black);
   display: -ms-flexbox;
-  /* display: flex; */
-  /* color: #fff; */
-  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
 }
 
 .cover-container {
@@ -28,9 +20,14 @@ body {
   opacity: 0.9;
 }
 
+.cover {
+  min-height: 100%;
+  height: auto;
+}
+
 h1 {
-  font-family: 'Kavoon', cursive;
-  margin-bottom: 20px;
+  font-family: 'Gobold_CUTS';
+  font-size: 3.5rem;
 }
 
 p {
@@ -39,6 +36,18 @@ p {
 
 .mt-76px {
   margin-top: 76px;
+}
+
+.bg-dark-blue {
+  background-color: var(--bg-dark-blue);
+}
+
+.text-blue {
+  color: var(--bg-dark-blue);
+}
+
+.text-dark-blue {
+  color: var(--bg-dark-blue-footer);
 }
 
 /********* ANIMATIONS **********/
