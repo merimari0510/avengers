@@ -17,6 +17,7 @@ import { AboutComponent } from './components/about/about.component';
 import { AvengerComponent } from './components/avenger/avenger.component';
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     APP_ROUTING
   ],
   providers: [
