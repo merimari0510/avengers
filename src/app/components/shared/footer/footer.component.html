@@ -1,7 +1,8 @@
-<div class="d-flex w-100 flex-column bg-footer p-3">
+<div class="d-flex flex-column w-100 bg-footer p-3">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 p-0">
+    <div class="row pb-5 mb-5 mt-3 border-bottom">
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 d-flex flex-column align-items-start">
+        <p class="title-footer">Company</p>
         <ul class="navbar-nav">
           <li class="nav-item pr-3" routerLinkActive="active">
             <a class="nav-link" [routerLink] = "['home']">Home</a>
@@ -10,23 +11,60 @@
             <a class="nav-link" [routerLink] = "['avengers']">Avengers</a>
           </li>
           <li class="nav-item pr-3" routerLinkActive="active">
-            <a class="nav-link" [routerLink] = "['contact']">Contact</a>
-          </li>
-          <li class="nav-item pr-3" routerLinkActive="active">
-            <a class="nav-link" [routerLink] = "['about']">About</a>
+            <a class="nav-link" [routerLink] = "['contact']">Movies</a>
           </li>
         </ul>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 p-0">
-        x
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 d-flex flex-column align-items-start">
+        <p class="title-footer">Help and Support</p>
+        <ul class="navbar-nav">
+          <li class="nav-item pr-3" routerLinkActive="active">
+            <a class="nav-link" [routerLink] = "['contact']">Contact</a>
+          </li>
+          <li class="nav-item pr-3" routerLinkActive="active">
+            <a class="nav-link" [routerLink] = "['about']">About Us</a>
+          </li>
+        </ul>
       </div>
-      <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 p-0">
-        x
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 d-flex flex-column align-items-start">
+        <p class="title-footer">Legal</p>
+        <ul class="navbar-nav">
+          <li class="nav-item pr-3" routerLinkActive="active">
+            <a class="nav-link" [routerLink] = "['home']">Terms & Conditions</a>
+          </li>
+          <li class="nav-item pr-3" routerLinkActive="active">
+            <a class="nav-link" [routerLink] = "['avengers']">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 d-flex flex-column align-items-start">
+        <p class="title-footer">Search heroe</p>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search Avenger">
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="containerfluid d-flex align-items-center">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <img class="rounded-circle w-15" src="../../../assets/img/meriem-abjil-bajja.jpg" alt="Meriem Abjil Bajja">
+          <h5 class="text-light mt-3">Meriem Abjil Bajja</h5>
+          <p class="text-light">689 59 07 37</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row align-items-center justify-content-center">
+        <a class="btn btn-default btn-social btn-round" href="https://github.com/merimari0510" rel="publisher" target="_blank"><i class="fa fa-github"></i></a>
+        <a class="btn btn-default btn-social btn-round" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        <a class="btn btn-default btn-social btn-round" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a class="btn btn-default btn-social btn-round" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a class="btn btn-default btn-social btn-round" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
       </div>
     </div>
   </div>
 </div>
-<div class="d-flex flex-column bg-dark">
+
+<div class="d-flex flex-column bg-dark p-2">
   <div class="containerfluid bg-dark text-center text-light p-1">
     © Copyright Meriem Abjil Bajja
   </div>

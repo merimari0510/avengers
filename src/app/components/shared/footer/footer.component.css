@@ -1,3 +1,46 @@
 .bg-footer {
   background-color: var(--bg-dark-blue-footer);
 }
+
+.w-15 {
+  width: 15% !important;
+}
+
+.title-footer {
+  color: var(--text-link-footer);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-link-footer);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--text-link-hover-footer);
+}
+
+.bg-footer .form-control {
+  background-color: rgba(255,255,255,0.1);
+  border: 0;
+  border-radius: 0;
+  color: var(--bg-white);
+  font-size: 16px;
+  width: 70%;
+}
+
+.bg-footer .form-control:focus {
+  border: 1px solid #6d7175;
+  box-shadow: none;
+}
+
+.bg-footer .form-inline .btn {
+  background: var(--bg-dark-blue);
+  box-shadow: none;
+  border: 0;
+  width: 27%;
+}
+
+.bg-footer .form-inline .btn:hover {
+  background: var(--bg-dark-blue-hover);
+}
