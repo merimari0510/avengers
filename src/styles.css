@@ -50,6 +50,15 @@ p {
   color: var(--bg-dark-blue-footer);
 }
 
+a {
+  color: var(--text-link);
+}
+
+a:hover {
+  color: var(--text-link-hover);
+  text-decoration: none;
+}
+
 /********* ANIMATIONS **********/
 .animated {
   -webkit-animation-duration: 1s;

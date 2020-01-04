@@ -5,6 +5,14 @@
   --text-dark-gray: #505050;
   --text-light-gray: #A7A7A7;
   --bg-dark-blue: #606D95;
+  --bg-dark-blue-hover: #4F5B7D;
   --text-blue-bg-dark-blue: #C9D4DE;
   --bg-dark-blue-footer: #28314C;
+
+  --text-link: #5A669F;
+  --text-link-hover: #CD6169;
+  --text-link-hover2: #B6669D;
+
+  --text-link-footer: #CACED9;
+  --text-link-hover-footer: #E6BBBE;
 }
