@@ -1,18 +1,23 @@
 :root {
   --bg-black: #000;
   --bg-white: #FFF;
+  --bg-white-opacitat-light: rgba(255,255,255,0.1);
   --bg-red-angular: #AC4D54;
-  --text-dark-gray: #505050;
-  --text-light-gray: #A7A7A7;
   --bg-dark-blue: #606D95;
   --bg-dark-blue-hover: #4F5B7D;
   --text-blue-bg-dark-blue: #C9D4DE;
   --bg-dark-blue-footer: #28314C;
+
+  --border-focus-input: #6D7175;
+
+  --text-dark-gray: #505050;
+  --text-light-gray: #A7A7A7;
 
   --text-link: #5A669F;
   --text-link-hover: #CD6169;
   --text-link-hover2: #B6669D;
 
   --text-link-footer: #CACED9;
+  --links-footer-hover: #4DABF7;
   --text-link-hover-footer: #E6BBBE;
 }
