@@ -40,8 +40,9 @@
       <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3 p-0 d-flex flex-column align-items-start">
         <p class="title-footer">Search heroe</p>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search Avenger">
-          <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="text" placeholder="Search Avenger"
+          (keyup.enter)="searchAvenger(searchText.value)" #searchText>
+          <button (click)="searchAvenger(searchText.value)" class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -56,7 +57,7 @@
       <div class="d-flex flex-row align-items-center justify-content-center">
         <a class="btn btn-default btn-social btn-round" href="https://github.com/merimari0510" rel="publisher" target="_blank"><i class="fa fa-github"></i></a>
         <a class="btn btn-default btn-social btn-round" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
-        <a class="btn btn-default btn-social btn-round" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a class="btn btn-default btn-social btn-round" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
         <a class="btn btn-default btn-social btn-round" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
         <a class="btn btn-default btn-social btn-round" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
       </div>
