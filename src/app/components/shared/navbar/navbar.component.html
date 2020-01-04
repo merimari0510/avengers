@@ -15,6 +15,9 @@
         <a class="nav-link" [routerLink] = "['avengers']">Avengers</a>
       </li>
       <li class="nav-item pr-3" routerLinkActive="active">
+        <a class="nav-link" [routerLink] = "['avengers']">Movies</a>
+      </li>
+      <li class="nav-item pr-3" routerLinkActive="active">
         <a class="nav-link" [routerLink] = "['contact']">Contact</a>
       </li>
       <li class="nav-item pr-3" routerLinkActive="active">
@@ -22,7 +25,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Buscar avenger" (keyup.enter)="searchAvenger(searchText.value)" #searchText>
+      <input class="form-control mr-sm-2" type="text" placeholder="Search Avenger" (keyup.enter)="searchAvenger(searchText.value)" #searchText>
       <button (click)="searchAvenger(searchText.value)" class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
