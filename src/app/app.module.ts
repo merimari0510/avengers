@@ -6,6 +6,7 @@ import { APP_ROUTING } from './app.routes';
 
 //SERVICES
 import { AvengersService } from './services/avengers.service';
+import { MoviesService } from './services/movies.service';
 
 //COMPONENTS
 import { AppComponent } from './app.component';
@@ -18,6 +19,8 @@ import { AvengerComponent } from './components/avenger/avenger.component';
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MoviesComponent } from './components/movies/movies.component';
+import { MovieComponent } from './components/movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AboutComponent,
     AvengerComponent,
     SearchComponent,
-    FooterComponent
+    FooterComponent,
+    MoviesComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     APP_ROUTING
   ],
   providers: [
-    AvengersService
+    AvengersService,
+    MoviesService
   ],
   bootstrap: [AppComponent]
 })
