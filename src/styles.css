@@ -32,7 +32,8 @@ h1 {
 }
 
 p {
-  font-family: 'Roboto'
+  font-family: 'Roboto';
+  line-height: 28px;
 }
 
 .mt-76px {
