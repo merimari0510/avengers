@@ -15,65 +15,8 @@ export class AvengersService {
       cite: "And so, as Christmas morning began, my journey was at its end. You start with something pure. Something exciting. Then come the mistakes, the compromises. We create our own demons. As promised, I got Pepper sorted out. Took a little tinkering. But then I thought 'why stop there?'' Of course there are people who say progress is dangerous, but then I bet none of those idiots ever had to live with a chest full of shrapnel. And now, neither will I. Let me tell you: that was the best sleep I'd had in years. So if I were to wrap this up tight with a bow or whatever, I guess I'd say my armor, it was never a distraction or a hobby, it was a cocoon. And now, I'm a changed man. You can take away my house, all my tricks and toys. One thing you can't take away...I am Iron Man.",
       cite_video: 'https://www.youtube.com/embed/JgyyVFusnaA',
       video: 'https://www.youtube.com/embed/5-Cx7UslEuE',
-      actor_name: 'Robert Downey Jr'/*,
-      list_movies_apears: [
-        {
-          name: 'Iron Man',
-          short_name: 'iron-man',
-          date: new Date(2008,4,30),
-          duration: 126,
-          img_poster: 'iron-man-poster',
-          img_card: 'iron-man',
-          trailer_oficial: '',
-          genre: ['Acción', 'Ciencia ficción'],
-          sinopsis: [
-            "Tony Stark (Robert Downey Jr., 'Chaplin'), dueño de Industrias Stark, inventor consagrado, vendedor de armas y playboy multimillonario, es secuestrado en Afganistán después de una demostración armamentística para el Ejército de los Estados Unidos. Forzado por sus captores a fabricar un arma temible, acaba construyendo en secreto una armadura de alta tecnología revolucionaria que usa para escaparse.",
-            "Cuando comprende el gran potencial de la armadura, decide revisarla para mejorarla y, así, utilizarla para guardar la justicia y proteger a los inocentes. Después de ser rescatado por James Rhodes (Terrence Howard, 'Crash'), decide desligarse de la producción de armamento militar, lo que deja en evidencia la empresa familiar. Obadiah Stane (Jeff Bridges, 'El gran Lebowski'), el administrador de la misma, le advierte que esa decisión les puede llevar a la ruina.",
-            "A oídos de Toni llega que varias de las armas de su empresa han llegado al grupo de terroristas que le secuestró en Afganistán. Le pide a su secretaria, «Pepper» Potts (Gwyneth Paltrow, 'Shakespeare in Love'), que piratee el sistema informativo de su propia empresa para descubrir quien ha permitido tales actividades. Al final descubren que el propio Stane lleva una doble vida, intentando reproducir la armadura robótica de Toni para su propio beneficio, por lo que tendrán que detenerlo.",
-            "«Iron Man» es la adaptación cinematográfica del famoso cómic de Marvel, creado por Stan Lee y Jack Kirby en 1963."
-          ]
-        },
-        {
-          name: 'El increible Hulk',
-          short_name: 'incredible-hulk'
-        },
-        {
-          name: 'Iron Man 2',
-          short_name: 'iron-man-2'
-        },
-        {
-          name: 'Los Vengadors',
-          short_name: 'avengers'
-        },
-        {
-          name: 'Iron Man 3',
-          short_name: 'iron-man-3'
-        },
-        {
-          name: 'Los Vengadores. La era de Ultrón',
-          short_name: 'avengers-ultron'
-        },
-        {
-          name: 'Capitán América: Civil War',
-          short_name: 'captain-america-civil-war',
-          date: new Date(2016,4,29)
-        },
-        {
-          name: 'Spider-Man: Homecoming',
-          short_name: 'spider-man-homecoming',
-          date: new Date(2017,7,28)
-        },
-        {
-          name: 'Vengadores: Infinity War',
-          short_name: 'avengers-infinity-war',
-          date: new Date(2018,4,27)
-        },
-        {
-          name: 'Vengadores: Endgame',
-          short_name: 'avengers-endgame',
-          date: new Date(2019,4,25)
-        },
-      ]*/
+      actor_name: 'Robert Downey Jr',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war', 'avengers-ultron', 'iron-man', 'iron-man-2', 'iron-man-3', 'avengers', 'incredible-hulk']
     },
     {
       name: 'Captain America',
@@ -90,7 +33,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg', '10.jpg', '11.jpg', '12.jpg'],
       cite: "Whatever happens tomorrow I want you to promise me something: that it will remain you. Not a perfect soldier, but a good man of heart.",
       cite_video: 'https://www.youtube.com/embed/ip8Pynrt4-U',
-      video: 'https://www.youtube.com/embed/5rrdm4YoKtE'
+      video: 'https://www.youtube.com/embed/5rrdm4YoKtE',
+      actor_name: 'Chris Evans',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war', 'avengers-ultron', 'avengers']
     },
     {
       name: 'Thor',
@@ -107,7 +52,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg', '10.jpg', '11.jpg', '12.jpg'],
       cite: "Are you Thor, the God of Hammers? That hammer was to help you control your power, to focus it. It was never your source of strength.",
       cite_video: 'https://www.youtube.com/embed/-mHaq88BAV4',
-      video: 'https://www.youtube.com/embed/abM1Z3fYT3s'
+      video: 'https://www.youtube.com/embed/abM1Z3fYT3s',
+      actor_name: 'Chris Hemsworth',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'avengers-ultron', 'avengers']
     },
     {
       name: 'Hulk',
@@ -120,7 +67,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "You can be a person for the world, but for someone you are a world.",
       cite_video: '',
-      video: 'https://www.youtube.com/embed/cXzi5F6qObc'
+      video: 'https://www.youtube.com/embed/cXzi5F6qObc',
+      actor_name: 'Mark Ruffalo',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'avengers-ultron', 'avengers', 'incredible-hulk']
     },
     {
       name: 'Black Widow',
@@ -136,7 +85,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg', '10.jpg', '11.jpg', '12.jpg'],
       cite: "All my friends are fighters, and here comes a guy avoiding a fight 'cause he knows he'll win.",
       cite_video: 'https://www.youtube.com/embed/ShJgHgfHtrs',
-      video: 'https://www.youtube.com/embed/lhXrzV5dkbw'
+      video: 'https://www.youtube.com/embed/lhXrzV5dkbw',
+      actor_name: 'Scarlett Johansson',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron', 'avengers', 'iron-man-2']
     },
     {
       name: 'Hawkeye',
@@ -152,7 +103,10 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "No matter what you did or what you were, if you go out you have to fight, fight and win, if you want to stay here but if you go out that door you will be avenger",
       cite_video: 'https://www.youtube.com/embed/Nwb8k95l-h4',
-      video: 'https://www.youtube.com/embed/l1kLfRl9YWM'
+      video: 'https://www.youtube.com/embed/l1kLfRl9YWM',
+      actor_name: 'Jeremy Renner',
+      list_movies_apears: ['avengers-endgame', 'captain-america-civil-war', 'avengers-ultron', 'avengers']
+
     },
     {
       name: 'Vision',
@@ -163,7 +117,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "Human beings are fearful and in need of protection. But that fear can inspire them to do great things.",
       cite_video: '',
-      video: 'https://www.youtube.com/embed/egTZU_iQ9u0'
+      video: 'https://www.youtube.com/embed/egTZU_iQ9u0',
+      actor_name: 'Paul Bettany',
+      list_movies_apears: ['avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron']
     },
     {
       name: 'Quicksilver',
@@ -180,7 +136,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "",
       cite_video: 'https://www.youtube.com/embed/',
-      video: 'https://www.youtube.com/embed/3HczWv6BvRw'
+      video: 'https://www.youtube.com/embed/3HczWv6BvRw',
+      actor_name: 'Aaron Taylor-Johnson',
+      list_movies_apears: ['avengers-ultron']
     },
     {
       name: 'Scarlet Witch',
@@ -191,7 +149,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "I can't control your fear only mine",
       cite_video: 'https://www.youtube.com/embed/14qmIBsdt6U',
-      video: 'https://www.youtube.com/embed/m542S0OnMoc'
+      video: 'https://www.youtube.com/embed/m542S0OnMoc',
+      actor_name: 'Elizabeth Olsen',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron']
     },
     {
       name: 'Ant-Man',
@@ -202,7 +162,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "Humans believe they are the only ones who are able to feel pain.",
       cite_video: '',
-      video: 'https://www.youtube.com/embed/eB3TbNo9usM'
+      video: 'https://www.youtube.com/embed/eB3TbNo9usM',
+      actor_name: 'Paul Rudd',
+      list_movies_apears: ['avengers-endgame', 'captain-america-civil-war']
     },
     {
       name: 'Doctor Strange',
@@ -217,7 +179,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "",
       cite_video: 'https://www.youtube.com/embed/',
-      video: 'https://www.youtube.com/embed/FQew3FzqBw4'
+      video: 'https://www.youtube.com/embed/FQew3FzqBw4',
+      actor_name: 'Benedict Cumberbatch',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war']
     },
     {
       name: 'Spider-Man',
@@ -236,7 +200,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "Lord know, kids like Henry need a hero. Courageous self-sacrificing people, setting examples for all of us. Everybody loves a hero, people line up for them, cheer them, scream their names, and years later they'll tell how they stood in the rain for hours, just to get a glimpse of the one who taught'em to hold on a second longer. I believe there´s a hero in all of us; that keeps us honest, gives us strength, makes us noble, and finally allows us to die with pride. Even though sometimes we have to be steady and give up the thing we want the most. Even our dreams",
       cite_video: 'https://www.youtube.com/embed/mKtt0Uig7Og',
-      video: 'https://www.youtube.com/embed/zceKndOf6qY'
+      video: 'https://www.youtube.com/embed/zceKndOf6qY',
+      actor_name: 'Tom Holland',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war']
     },
     {
       name: 'Black Panther',
@@ -250,7 +216,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "But in times of crisis, the wise build bridges, while fools build barriers. We must find a way to look after one another as if we were one single tribe.",
       cite_video: 'https://www.youtube.com/embed/5LkK0ztdbDc',
-      video: 'https://www.youtube.com/embed/8ck8pVhsWLU'
+      video: 'https://www.youtube.com/embed/8ck8pVhsWLU',
+      actor_name: 'Chadwick Boseman',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war']
     },
     {
       name: 'Falcon',
@@ -261,7 +229,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "",
       cite_video: 'https://www.youtube.com/embed/',
-      video: 'https://www.youtube.com/embed/gfNEwhPxeGM'
+      video: 'https://www.youtube.com/embed/gfNEwhPxeGM',
+      actor_name: 'Anthony Mackie',
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron']
     },
     {
       name: 'Captain Marvel',
@@ -274,7 +244,9 @@ export class AvengersService {
       list_img: ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg', '09.jpg'],
       cite: "I Have Nothing To Prove To You",
       cite_video: 'https://www.youtube.com/embed/s_2HbawaNvs',
-      video: 'https://www.youtube.com/embed/YAGHsKoEv44'
+      video: 'https://www.youtube.com/embed/YAGHsKoEv44',
+      actor_name: 'Brie Larson',
+      list_movies_apears: ['avengers-endgame']
     }
   ]
 
@@ -330,17 +302,5 @@ export interface Avenger{
   cite_video:string;
   video:string;
   actor_name?:string;
-  // list_movies_apears?:Movie[];
+  list_movies_apears?:string[];
 };
-
-/*export interface Movie {
-  name: string;
-  short_name?:string;
-  date?: Date;
-  duration?: number,
-  img_poster?: string,
-  img_card?: string,
-  trailer_oficial?: string,
-  genre?: string[],
-  sinopsis?: string[]
-};*/
