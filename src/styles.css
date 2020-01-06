@@ -33,11 +33,14 @@ h1 {
 
 p {
   font-family: 'Roboto';
-  line-height: 28px;
 }
 
 .mt-76px {
   margin-top: 76px;
+}
+
+.bg-light-blue {
+  background-color: #eaebed;
 }
 
 .bg-dark-blue {
