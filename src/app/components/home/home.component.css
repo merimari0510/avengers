@@ -15,3 +15,19 @@ blockquote p {
 .container > p {
   font-size: 1.5rem;
 }
+
+.image-movie img {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.description-movie {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.description-movie p.title {
+  font-family: 'Gobold_CUTS';
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+}
