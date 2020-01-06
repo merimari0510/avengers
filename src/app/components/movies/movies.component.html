@@ -1,10 +1,10 @@
 <div class="jumbotron jumbotron-fluid mt-76px mb-0 animated fadeIn fast">
   <div class="container">
-    <h1 class="display-4 text-center mb-3 text-dark-blue">Movies MCU</h1>
-    <p class="lead text-center mb-5">The Avengers are, today, the most famous Marvel superhero group.</p>
+    <h1 class="display-4 text-center mb-5 text-dark-blue">Movies MCU</h1>
+    <!-- <p class="lead text-center mb-5">The Avengers are, today, the most famous Marvel superhero group.</p> -->
     <p class="mb-5">The <strong>Marvel Studios</strong> producer has been producing films of the Marvel superhero universe since 2008. The first film was <strong>Iron Man</strong>, and since then they have not stopped releasing movies. All these films have continuity between them, are linked, and the events that occur in them have an impact on the following. This is known as the <strong>Marvel Cinematic Universe</strong> (MCU).</p>
     <div class="row">
-      <div class="movie col-sm-6 col-md-4 col-lg-3 col-xl-3 p-0" *ngFor="let movie of getMoviesOrderByName(), let i = index ">
+      <div class="movie col-sm-6 col-md-4 col-lg-3 col-xl-3 p-2" *ngFor="let movie of getMoviesOrderByName(), let i = index ">
         <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cards/{{ movie.img_card }}.jpg" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
       </div>
     </div>

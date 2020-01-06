@@ -4,9 +4,9 @@
   opacity: 0.65;
 }
 
-.movie {
+/* .movie {
   background: var(--bg-black);
-}
+} */
 
 .movie:hover {
   cursor: pointer;
