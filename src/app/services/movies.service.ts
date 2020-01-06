@@ -150,7 +150,10 @@ export class MoviesService {
       name: 'Thor',
       id: 'thor',
       img_card: 'thor',
-      short_desc: "In the mythical city of Asgard, everyone assumes that the time for King Odin's firstborn, the mighty Thor, is crowned as the new king. However, Odin realizes that his son is too proud and arrogant to occupy the throne and decides for him an exemplary punishment; He will be banished in the primitive world of Midgard (the earth) until he learns humility. In that world, Thor will know the true meaning of love and friendship and will have to figure out how to regain his power when the machinations of his perverse and devious brother Loki endanger both Asgard and the earth.",
+      date: new Date(2011,4,29),
+      short_desc: "In the mythical city of Asgard, everyone assumes that time for the firstborn of King Odin, the mighty Thor, is crowned as the new king has arrived. However, Odin realizes that his son is too proud and arrogant to occupy the throne and decides to give him exemplary punishment: he will be banished in the primitive world of Midgard (the earth) until he learns humility. In that world, Thor will know the true meaning of love and friendship and will have to discover how to regain his power when Loki endangers both Asgard and Earth.",
+      genre: ["Action", "Adventure", "Fantasy"],
+      sinopsis: [""],
       ordre_vision: 5
     },
     {
@@ -300,7 +303,8 @@ export class MoviesService {
       name: 'Captain America: The First Avenger',
       id: 'captain-america-the-first-avenger',
       img_card: 'captain-america-the-first-avenger',
-      short_desc: "Born during the Great Depression, Steven Rogers grew up as a fragile young man in a poor family. Horrified by the footage of the Nazis in Europe, Rogers prepared to enlist in the army. However, due to his fragility and illness, he was rejected. Listening to the young man's sincere plea, General Chester Phillips offered Rogers the opportunity to participate in a special experiment ... Operation: Renaissance. After weeks of testing, Rogers finally received the Super Soldier Serum and was bombarded by «Vita rays.» Steven Rogers emerged from treatment with a body as perfect as a capable and fit body. Rogers underwent an intensive program of physical and tactical training. Three months later, he was given his first assignment as Captain America. Armed with his indestructible shield and his ability to battle.",
+      date: new Date(2011,8,5),
+      short_desc: "Steven Rogers horrified by the footage of the Nazis in Europe, Rogers sets out to enlist in the army. However, he was rejected. Listening to the young man's sincere supplication, General Chester Phillips offered Rogers the opportunity to participate in a special experiment ... Operation: Renaissance. After weeks, Rogers finally received the Super Soldier and was bombed by the Vita Rays. Steven Rogers came out of treatment with a body as perfect as a capable and fit body.",
       sinopsis: ["In 2011, a group of researchers explored the Arctic Circle and discovered the buried remains of a large plane. While they investigate inside the aircraft, two of the researchers discover a frozen and circular object with red, white and blue ornaments. ",
       "In March 1942, Johann Schmidt, the Nazi HYDRA division commanding officer and his men invade an ancient church in Tønsberg, Norway, in search of a mysterious and cosmic device known as the Teseract, which possesses incalculable powers. Upon discovering the true location of the Teseracto, Schmidt kills the head of the church along with everyone else in the town. ",
       "In New York City in 1943, Steven Rogers is rejected once again for military service of World War II, despite making several inventions in different enlistment offices, due to his numerous health problems and weak resistance Physics While attending an exhibition of future technologies with his friend James Buchanan Barnes, Rogers tries again to enlist after accidentally hearing a conversation between Rogers and Barnes about his desire to help in the war, Dr. Abraham Erskine approves the request for Rogers to enlist as a candidate for the Renaissance Project, an experiment developed by the Strategic Scientific Reserve under the supervision of Erskine, Colonel Chester Phillips and the English agent, Margaret Carter. ",
@@ -341,6 +345,40 @@ export class MoviesService {
     let moviesArray:Movie[] = this.movies;
     moviesArray.sort(function(a, b){
       var nameA = a.name.toLowerCase(), nameB=b.name.toLowerCase();
+      if (nameA < nameB) //sort string ascending
+          return -1;
+      if (nameA > nameB)
+          return 1;
+      return 0 //default return value (no sorting)
+    });
+    return moviesArray;
+  }
+
+  getMoviesOrderByOrder(phase:number) {
+    let ordre_min = 0, ordre_max = 0;
+    if (phase == 1) {
+      ordre_min = 1;
+      ordre_max = 6
+    }
+    else if (phase == 2) {
+      ordre_min = 7;
+      ordre_max = 12
+    }
+    else if (phase == 3) {
+      ordre_min = 13;
+      ordre_max = 23;
+    }
+
+    let moviesArray:Movie[] = [];
+    for ( let movie of this.movies ) {
+      let ordre = movie.ordre_vision;
+      if (ordre>=ordre_min && ordre<=ordre_max) {
+        moviesArray.push( movie );
+      }
+    }
+
+    moviesArray.sort(function(a, b){
+      var nameA = a.ordre_vision, nameB=b.ordre_vision;
       if (nameA < nameB) //sort string ascending
           return -1;
       if (nameA > nameB)
