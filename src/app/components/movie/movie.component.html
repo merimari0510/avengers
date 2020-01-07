@@ -1,1 +1,24 @@
-<p>movie works!</p>
+<div class="d-flex w-100 h-75 animated fadeIn fast">
+  <img class="movie" src="../../../assets/img/movies/posters/{{ movie.id }}.jpg" alt="{{ movie.name }} Slide">
+</div>
+
+<div class="bg-light d-flex w-100 p-5 mx-auto flex-column animated fadeIn fast">
+  <div class="container mx-auto bg-light p-4">
+    <h1 class="text-center text-dark-blue mb-3">{{ movie.name }}</h1>
+    <p class="text-center text-secondary mb-2">{{ getFormatDateMovie(movie.date) }} ({{ movie.duration }} min) </p>
+    <p class="text-center text-secondary mb-4"><span *ngFor="let p of movie.genre, let i = index"> <span *ngIf="i>0">, </span><strong>{{ p }}</strong></span></p>
+    <p class="text-justify" *ngFor="let p of movie.sinopsis">{{ p }}</p>
+  </div>
+</div>
+
+<!-- <div class="containerfluid d-flex flex-column">
+  <div class="row m-0">
+    <div class="avenger col-sm-6 col-md-6 col-lg-4 col-xl-4 p-0" *ngFor="let imatge_avenger of avenger.list_img, let i = index ">
+      <img class="card-img-top h-100 w-100" src="../../../assets/img/portfolios/{{ avenger.name_short }}/{{ imatge_avenger}}" alt="{{ avenger.name }} Miniatura [100% x225]" data-holder-rendered="true">
+    </div>
+  </div>
+</div> -->
+
+<div *ngIf="getTrailer() != ''" class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+  <iframe [src]="getTrailer()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
+</div>
