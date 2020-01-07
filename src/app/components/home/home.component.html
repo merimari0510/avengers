@@ -1,15 +1,6 @@
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast"></div>
-<!-- <div class="d-flex w-100 h-100 p-3 mx-auto flex-column bg-light">
-  <div class="container m-auto p-5 text-center">
-    <blockquote class="blockquote text-center p-3">
-      <p class="mb-0 pb-3">There is nothing wrong with feeling fear, as long as you don't let yourself be defeated.</p>
-      <footer class="blockquote-footer"><cite title="Captain America">Capitan America </cite></footer>
-    </blockquote>
-    <p class="pl-5 pr-5 pt-3">When we do something new we have fear and uncertainty and it is normal, we have all gone through this phase, the difference is that some people stay there and others make the leap to face things with attitude and enthusiasm. Let your dreams or goals be stronger than your fears.</p>
-  </div>
-</div> -->
+<!-- <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast"></div>
 <div class="d-flex w-100 cover p-3 mx-auto flex-column bg-light-blue">
-  <div class="container m-auto p-5">
+  <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-dark-blue">Order to watch MCU movies</h1>
     <p>This is a question that many ask lately, what movie goes before what? If a person decides to see them all together now, it is impossible only with the titles and covers to know which one to start.</p>
     <p>Although the movies of the heroes separately are more or less independent, there is a small thread that forces you to watch certain movies before others.</p>
@@ -17,13 +8,14 @@
   </div>
 </div>
 <div class="d-flex w-100 cover p-3 mx-auto flex-column bg-dark-blue">
-  <div class="container m-auto p-5">
+  <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-light">Phase 1</h1>
     <div class="row movie mb-3" *ngFor="let movie of getMoviesOrderByOrder(1), let i = index ">
       <div class="col-sm-10 col-md-4 col-lg-2 image-movie p-0">
         <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cards/{{ movie.img_card }}.jpg" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
       </div>
-      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center">
+      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
         <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
         <p>{{ movie.short_desc }}</p>
       </div>
@@ -31,13 +23,14 @@
   </div>
 </div>
 <div class="d-flex w-100 cover p-3 mx-auto flex-column bg-light-blue">
-  <div class="container m-auto p-5">
+  <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-dark-blue">Phase 2</h1>
     <div class="row movie mb-3" *ngFor="let movie of getMoviesOrderByOrder(2), let i = index ">
       <div class="col-sm-10 col-md-4 col-lg-2 image-movie p-0">
         <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cards/{{ movie.img_card }}.jpg" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
       </div>
-      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center">
+      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
         <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
         <p>{{ movie.short_desc }}</p>
       </div>
@@ -45,13 +38,76 @@
   </div>
 </div>
 <div class="d-flex w-100 cover p-3 mx-auto flex-column bg-dark-blue">
-  <div class="container m-auto p-5">
+  <div class="container m-auto p-3">
     <h1 class="display-4 text-center mb-5 text-light">Phase 3</h1>
     <div class="row movie mb-3" *ngFor="let movie of getMoviesOrderByOrder(3), let i = index ">
       <div class="col-sm-10 col-md-4 col-lg-2 image-movie p-0">
         <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cards/{{ movie.img_card }}.jpg" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
       </div>
-      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center">
+      <div class="col-sm-10 col-md-8 col-lg-10 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
+        <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
+        <p>{{ movie.short_desc }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+  <iframe src="https://www.youtube.com/embed/cT9mxZUQ2JM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
+</div> -->
+
+
+
+
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column animated fadeIn fast"></div>
+<div class="d-flex w-100 cover p-3 mx-auto flex-column bg-light-blue">
+  <div class="container m-auto p-3">
+    <h1 class="display-4 text-center mb-5 text-dark-blue">Order to watch MCU movies</h1>
+    <p>This is a question that many ask lately, what movie goes before what? If a person decides to see them all together now, it is impossible only with the titles and covers to know which one to start.</p>
+    <p>Although the movies of the heroes separately are more or less independent, there is a small thread that forces you to watch certain movies before others.</p>
+    <p>It should be noted that Marvel is delivering the movies in phases. Each phase contains several films of the heroes alone that end with one of the Avengers together. Therefore, each Avengers movie can be considered the end of a story arc.</p>
+  </div>
+</div>
+<div class="d-flex w-100 cover p-3 mx-auto flex-column bg-dark-blue">
+  <div class="container m-auto p-3">
+    <h1 class="display-4 text-center mt-3 mb-5 text-light">Phase 1</h1>
+    <div class="row movie mb-3 mx-auto" *ngFor="let movie of getMoviesOrderByOrder(1), let i = index ">
+      <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 image-movie p-0">
+        <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cross/{{ movie.img_card }}.png" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
+        <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
+        <p>{{ movie.short_desc }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex w-100 cover p-3 mx-auto flex-column bg-light-blue">
+  <div class="container m-auto p-3">
+    <h1 class="display-4 text-center mt-3 mb-5 text-dark-blue">Phase 2</h1>
+    <div class="row movie mb-3 mx-auto" *ngFor="let movie of getMoviesOrderByOrder(2), let i = index ">
+      <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 image-movie p-0">
+        <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cross/{{ movie.img_card }}.png" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
+        <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
+        <p>{{ movie.short_desc }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex w-100 cover p-3 mx-auto flex-column bg-dark-blue">
+  <div class="container m-auto p-3">
+    <h1 class="display-4 text-center mt-3 mb-5 text-light">Phase 3</h1>
+    <div class="row movie mb-3 mx-auto" *ngFor="let movie of getMoviesOrderByOrder(3), let i = index ">
+      <div class="col-sm-12 col-md-4 col-lg-3 col-xl-3 image-movie p-0">
+        <a [routerLink] = "['/movie',movie.id]"><img class="card-img-top w-100" src="../../../assets/img/movies/cross/{{ movie.img_card }}.png" alt="Movie {{ movie.name }}" data-holder-rendered="true"></a>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-9 col-xl-9 description-movie bg-light d-flex flex-column justify-content-center"
+          (click)="mostrarMovie( movie.id)">
         <p class="title text-blue mt-3 mb-2">{{ movie.name }} ({{ getFormatDateMovie(movie.date) }})</p>
         <p>{{ movie.short_desc }}</p>
       </div>

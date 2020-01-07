@@ -43,3 +43,14 @@ blockquote p {
 .bg-light-blue .movie:hover {
   box-shadow: 0 0 20px var(--text-light-gray);
 }
+
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .row.movie {
+    width: 80%;
+  }
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MoviesService, Movie } from '../../services/movies.service'
 
 @Component({
@@ -10,7 +11,8 @@ export class HomeComponent implements OnInit {
 
   movies: Movie[] = [];
 
-  constructor(private _moviesService:MoviesService) { }
+  constructor(private _moviesService:MoviesService,
+              private router:Router) { }
 
   ngOnInit() {
     this.movies = this._moviesService.getMovies();
@@ -48,6 +50,11 @@ export class HomeComponent implements OnInit {
     let fullYear = date.getFullYear();
 
     return fullMonth + " " + fullYear;
+  }
+
+  mostrarMovie( id:string ) {
+    console.log(id);
+    this.router.navigate( ['/movie', id] );
   }
 
 }
