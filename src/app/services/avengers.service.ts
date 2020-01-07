@@ -35,7 +35,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/ip8Pynrt4-U',
       video: 'https://www.youtube.com/embed/5rrdm4YoKtE',
       actor_name: 'Chris Evans',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war', 'avengers-ultron', 'avengers']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war', 'avengers-ultron', 'captain-america-the-winter-soldier', 'captain-america-the-first-avenger', 'thor-the-dark-world', 'avengers']
     },
     {
       name: 'Thor',
@@ -54,7 +54,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/-mHaq88BAV4',
       video: 'https://www.youtube.com/embed/abM1Z3fYT3s',
       actor_name: 'Chris Hemsworth',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'avengers-ultron', 'avengers']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'thor-ragnarok', 'avengers-ultron', 'thor-the-dark-world', 'avengers', 'doctor-strange', 'thor']
     },
     {
       name: 'Hulk',
@@ -69,7 +69,7 @@ export class AvengersService {
       cite_video: '',
       video: 'https://www.youtube.com/embed/cXzi5F6qObc',
       actor_name: 'Mark Ruffalo',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'avengers-ultron', 'avengers', 'incredible-hulk']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'thor-ragnarok', 'avengers-ultron', 'iron-man-3', 'avengers', 'incredible-hulk']
     },
     {
       name: 'Black Widow',
@@ -87,7 +87,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/ShJgHgfHtrs',
       video: 'https://www.youtube.com/embed/lhXrzV5dkbw',
       actor_name: 'Scarlett Johansson',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron', 'avengers', 'iron-man-2']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron', 'captain-america-the-winter-soldier', 'avengers', 'iron-man-2', 'black-widow']
     },
     {
       name: 'Hawkeye',
@@ -105,7 +105,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/Nwb8k95l-h4',
       video: 'https://www.youtube.com/embed/l1kLfRl9YWM',
       actor_name: 'Jeremy Renner',
-      list_movies_apears: ['avengers-endgame', 'captain-america-civil-war', 'avengers-ultron', 'avengers']
+      list_movies_apears: ['avengers-endgame', 'captain-america-civil-war', 'avengers-ultron', 'avengers', 'thor']
 
     },
     {
@@ -138,7 +138,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/',
       video: 'https://www.youtube.com/embed/3HczWv6BvRw',
       actor_name: 'Aaron Taylor-Johnson',
-      list_movies_apears: ['avengers-ultron']
+      list_movies_apears: ['avengers-ultron', 'captain-america-the-winter-soldier']
     },
     {
       name: 'Scarlet Witch',
@@ -151,7 +151,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/14qmIBsdt6U',
       video: 'https://www.youtube.com/embed/m542S0OnMoc',
       actor_name: 'Elizabeth Olsen',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron', 'captain-america-the-winter-soldier']
     },
     {
       name: 'Ant-Man',
@@ -164,7 +164,7 @@ export class AvengersService {
       cite_video: '',
       video: 'https://www.youtube.com/embed/eB3TbNo9usM',
       actor_name: 'Paul Rudd',
-      list_movies_apears: ['avengers-endgame', 'captain-america-civil-war']
+      list_movies_apears: ['avengers-endgame', 'ant-man-and-the-wasp', 'captain-america-civil-war', 'ant-man']
     },
     {
       name: 'Doctor Strange',
@@ -181,7 +181,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/',
       video: 'https://www.youtube.com/embed/FQew3FzqBw4',
       actor_name: 'Benedict Cumberbatch',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'thor-ragnarok',  'doctor-strange']
     },
     {
       name: 'Spider-Man',
@@ -202,7 +202,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/mKtt0Uig7Og',
       video: 'https://www.youtube.com/embed/zceKndOf6qY',
       actor_name: 'Tom Holland',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war']
+      list_movies_apears: ['spider-man-far-from-home', 'avengers-endgame', 'avengers-infinity-war', 'spider-man-homecoming', 'captain-america-civil-war']
     },
     {
       name: 'Black Panther',
@@ -218,7 +218,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/5LkK0ztdbDc',
       video: 'https://www.youtube.com/embed/8ck8pVhsWLU',
       actor_name: 'Chadwick Boseman',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'black-panther']
     },
     {
       name: 'Falcon',
@@ -231,7 +231,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/',
       video: 'https://www.youtube.com/embed/gfNEwhPxeGM',
       actor_name: 'Anthony Mackie',
-      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'avengers-ultron']
+      list_movies_apears: ['avengers-endgame', 'avengers-infinity-war', 'captain-america-civil-war', 'ant-man', 'avengers-ultron', 'captain-america-the-winter-soldier']
     },
     {
       name: 'Captain Marvel',
@@ -246,7 +246,7 @@ export class AvengersService {
       cite_video: 'https://www.youtube.com/embed/s_2HbawaNvs',
       video: 'https://www.youtube.com/embed/YAGHsKoEv44',
       actor_name: 'Brie Larson',
-      list_movies_apears: ['avengers-endgame']
+      list_movies_apears: ['avengers-endgame', 'captain-marvel']
     }
   ]
 
