@@ -27,7 +27,7 @@ export class MovieComponent {
     this.safeUrl = '';
     console.log(this.safeUrl);
     if (video != '')
-      this.safeUrl = this._sanitizer.bypassSecurityTrustResourceUrl(video);
+      this.safeUrl = this._sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/" + video);
     console.log(this.safeUrl);
     return this.safeUrl;
   }
