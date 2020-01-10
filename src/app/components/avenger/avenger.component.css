@@ -92,3 +92,118 @@ blockquote p {
     height: 30rem !important;
   }
 }
+
+p {
+  font-size: 1.2rem;
+  font-family: 'Myriad Pro';
+  margin-bottom: 2.5rem;
+}
+
+/****** ASIDE *******/
+
+aside.actor {
+  background: var(--bg-dark-blue-footer);
+  clear: right;
+  color: #D5D4D4;
+  float: right;
+  font-family: 'Myriad Pro';
+  margin: 0 0 1rem 1.5rem;
+}
+
+.actor h2 {
+  background: var(--text-link-footer);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 0.67rem 1rem;
+}
+
+.actor h3 {
+  font-size: 0.93rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.actor .row {
+  padding-bottom: 0.5rem;
+}
+
+.actor .col-md-4 {
+  padding-left: 1.5rem;
+}
+
+.actor .col-md-8 {
+  font-size: 0.93rem;
+  line-height: 1.2;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.actor .row ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.actor .row ul li {
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .actor   .col-md-4 {
+    padding-left: 2rem;
+  }
+  .actor .col-md-8 {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie {
+    height: 20rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .movie {
+    height: 9rem;
+    width: 51.8%;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie {
+    height: 14.5rem;
+    width: 61.8%;
+  }
+}
+
+@media (min-width: 576px) {
+  .movie {
+    height: 24rem;
+    width: 63%;
+  }
+}
+
+@media (max-width: 576px) {
+  .movie {
+    height: 24rem;
+    width: 63.7%;
+  }
+}
+
+.movie {
+    /* width: 63.7%;
+    height: 24rem; */
+    /* width: 63%;
+    height: 24rem; */
+    /* width: 61.8%;
+    height: 14.5rem; */
+    /* width: 51.8%;
+    height: 9rem; */
+    /* width: 100%;
+    height: 20rem; */
+    margin-bottom: 1rem;
+}

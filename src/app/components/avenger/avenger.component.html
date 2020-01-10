@@ -20,7 +20,25 @@
 <div class="bg-light d-flex w-100 mx-auto flex-column animated fadeIn fast">
   <div class="container mx-auto bg-light p-4">
     <h1 class="text-center mt-1 mb-3 text-dark-blue">{{ avenger.name }}</h1>
-    <img class="rounded float-right w-50 ml-3 mt-2" [src]="avenger.img_portafolio_portada" alt="{{ avenger.name }} Slide">
+    <aside class="col-md-4 col-sm-5 p-0 actor">
+      <h2 class="text-dark text-center mb-0">{{ avenger.name }}</h2>
+      <img class="rounded w-100 mb-2" [src]="avenger.img_portafolio_portada" alt="{{ avenger.name }} Slide">
+      <div class="row" *ngFor="let element of avenger.info.description">
+        <div class="col-md-4"><h3>{{ element.title }}</h3></div>
+        <div class="col-md-8"><ul><li *ngFor="let d of element.description">{{ d }}</li></ul></div>
+      </div>
+      <h2 class="text-dark text-center">Appearances</h2>
+      <div class="row" *ngFor="let element of avenger.info.appearences">
+        <div class="col-md-4"><h3>{{ element.title }}</h3></div>
+        <div class="col-md-8"><ul><li *ngFor="let d of element.description">{{ d }}</li></ul></div>
+      </div>
+      <h2 class="text-dark text-center">Actors/Actresses</h2>
+      <div class="row" *ngFor="let element of avenger.info.actor">
+        <div class="col-md-4"><h3>{{ element.title }}</h3></div>
+        <div class="col-md-8"><ul><li *ngFor="let d of element.description">{{ d }}</li></ul></div>
+      </div>
+    </aside>
+    <iframe [src]="getVideoIframe()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="movie"></iframe>
     <p class="text-justify" *ngFor="let p of avenger.description_more">{{ p }}</p>
   </div>
 </div>
