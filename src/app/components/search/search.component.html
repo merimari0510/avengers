@@ -69,13 +69,13 @@
   </div>
 </div> -->
 
-<div class="containerfluid bg-light p-5">
-  <div class="container">
+<div class="bg-light">
+  <div class="container pt-5 pb-5">
     <div class="row">
-      <div class="col-md-4 col-sm-6 mb-4" *ngFor="let avenger of searchResults, let i = index ">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" *ngFor="let avenger of searchResults, let i = index ">
         <div class="card-container w-100 rounded-sm">
           <div class="card w-100 h-100">
-            <div class="front">
+            <div class="front w-100 h-100">
               <img class="w-100 h-100 rounded-sm" src="assets/img/cards/{{ avenger.img_card}}"/>
             </div> <!-- end front panel -->
             <div class="back w-100 d-flex flex-column justify-content-center p-3" (click)="mostrarAvenger( avenger.name_short)">

@@ -1,4 +1,4 @@
-<div class="cover-container d-flex w-100 h-100 mx-auto flex-column animated fadeIn fast">
+<div class="cover-image d-flex w-100 mx-auto flex-column animated fadeIn fast">
   <!-- <div class="container-fluid m-auto bg-light h-100"> -->
     <div id="carouselAvenger" class="carousel slide h-100" data-ride="carousel">
       <div class="carousel-inner h-100">
@@ -17,33 +17,22 @@
     </div>
   <!-- </div> -->
 </div>
-<div class="bg-light d-flex w-100 p-5 mx-auto flex-column animated fadeIn fast">
+<div class="bg-light d-flex w-100 mx-auto flex-column animated fadeIn fast">
   <div class="container mx-auto bg-light p-4">
-    <h1 class="text-center mb-5 text-dark-blue">{{ avenger.name }}</h1>
-    <img class="rounded float-right w-50 ml-5" [src]="avenger.img_portafolio_portada" alt="{{ avenger.name }} Slide">
+    <h1 class="text-center mt-1 mb-3 text-dark-blue">{{ avenger.name }}</h1>
+    <img class="rounded float-right w-50 ml-3 mt-2" [src]="avenger.img_portafolio_portada" alt="{{ avenger.name }} Slide">
     <p class="text-justify" *ngFor="let p of avenger.description_more">{{ p }}</p>
   </div>
 </div>
 
-<!-- <div class="containerfluid d-flex flex-column">
-  <div class="row m-0">
-    <div class="avenger col-sm-6 col-md-6 col-lg-4 col-xl-4 p-0" *ngFor="let imatge_avenger of avenger.list_img, let i = index ">
-      <img class="card-img-top h-100 w-100" src="assets/img/portfolios/{{ avenger.name_short }}/{{ imatge_avenger}}" alt="{{ avenger.name }} Miniatura [100% x225]" data-holder-rendered="true">
-    </div>
-  </div>
-</div> -->
-
-
-<div *ngIf="avenger.cite != ''" class="cover d-flex w-100 p-3 mx-auto flex-column bg-dark-blue">
-  <div class="container m-auto p-5 text-center">
-    <blockquote class="blockquote text-center text-light p-3">
-      <p class="mb-0 pb-3">{{ avenger.cite }}</p>
-      <footer class="blockquote-footer"><cite title="{{ avenger.name }}">{{ avenger.name }} </cite></footer>
-    </blockquote>
-  </div>
+<div *ngIf="avenger.cite != ''" class="d-flex flex-column w-100 min-h-75 p-3 bg-dark-blue">
+  <blockquote class="blockquote container m-auto text-center text-light p-3">
+    <p class="mb-0 pb-3">{{ avenger.cite }}</p>
+    <footer class="blockquote-footer"><cite title="{{ avenger.name }}">{{ avenger.name }} </cite></footer>
+  </blockquote>
 </div>
 
-<div *ngIf="avenger.cite_video != ''" class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+<div *ngIf="avenger.cite_video != ''" class="cover-container-2 d-flex w-100 h-75 mx-auto flex-column">
   <iframe [src]="getCiteVideoIframe()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
 </div>
 
@@ -59,8 +48,8 @@
       </div>
     </div>
   </div>
-</div>-->
-
-<div class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
-  <iframe [src]="getVideoIframe()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
 </div>
+
+<div class="cover-container-2 d-flex w-100 h-75 mx-auto flex-column">
+  <iframe [src]="getVideoIframe()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
+</div>-->

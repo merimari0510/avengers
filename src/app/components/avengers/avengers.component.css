@@ -1,7 +1,7 @@
 .card-img-top {
   border-radius: 0;
   display: block;
-  opacity: 0.65;
+  /* opacity: 0.65; */
 }
 
 .avenger {
@@ -14,4 +14,8 @@
 
 .avenger:hover img {
   opacity: 1;
+}
+
+.jumbotron a {
+  font-weight: bold
 }

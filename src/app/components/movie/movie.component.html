@@ -2,9 +2,9 @@
   <img class="movie" src="assets/img/movies/posters/{{ movie.id }}.jpg" alt="{{ movie.name }} Slide">
 </div>
 
-<div class="bg-light d-flex w-100 p-5 mx-auto flex-column animated fadeIn fast">
+<div class="bg-light d-flex w-100 mx-auto flex-column animated fadeIn fast">
   <div class="container mx-auto bg-light p-4">
-    <h1 class="text-center text-dark-blue mb-3">{{ movie.name }}</h1>
+    <h1 class="text-center text-dark-blue mt-3 mb-3">{{ movie.name }}</h1>
     <p class="text-center text-secondary mb-2">{{ getFormatDateMovie(movie.date) }} ({{ movie.duration }} min) </p>
     <p class="text-center text-secondary mb-4"><span *ngFor="let p of movie.genre, let i = index"> <span *ngIf="i>0">, </span><strong>{{ p }}</strong></span></p>
     <p class="text-justify" *ngFor="let p of movie.sinopsis">{{ p }}</p>
@@ -19,6 +19,6 @@
   </div>
 </div> -->
 
-<div *ngIf="getTrailer() != ''" class="cover-container-2 d-flex w-100 h-100 mx-auto flex-column">
+<div *ngIf="getTrailer() != ''" class="cover-container-2 d-flex w-100 h-75 mx-auto flex-column">
   <iframe [src]="getTrailer()" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="w-100 h-100"></iframe>
 </div>

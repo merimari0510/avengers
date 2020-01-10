@@ -57,3 +57,17 @@
 .socials .btn:focus {
   box-shadow: none;
 }
+
+@media (max-width: 576px){
+  .bg-footer > .container > .pb-5 {
+    padding-bottom: 2rem !important;
+  }
+
+  .bg-footer > .container > .mb-5 {
+    margin-bottom: 2rem !important;
+  }
+
+  .bg-footer .rounded-circle.w-15 {
+    width: 40% !important;
+  }
+}

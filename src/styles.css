@@ -26,6 +26,14 @@ body {
   height: auto;
 }
 
+.cover-image {
+  max-height: 75%;
+}
+
+.min-h-75 {
+  min-height: 75%;
+}
+
 h1 {
   font-family: 'Gobold_CUTS';
   font-size: 3.5rem;
@@ -37,6 +45,10 @@ p {
 
 .mt-76px {
   margin-top: 76px;
+}
+
+.mt-9 {
+  margin-top: 5rem;
 }
 
 .bg-light-blue {
@@ -56,11 +68,11 @@ p {
 }
 
 a {
-  color: var(--text-link);
+  color: var(--text-link-hover);
 }
 
 a:hover {
-  color: var(--text-link-hover);
+  color: var(--text-link);
   text-decoration: none;
 }
 

@@ -29,7 +29,6 @@ blockquote p {
 .description-movie p.title {
   font-family: 'Gobold_CUTS';
   font-size: 1.5rem;
-  /* font-weight: bold; */
 }
 
 .movie:hover {

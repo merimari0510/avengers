@@ -71,9 +71,12 @@
 }
 
 .title{
-  color: #506A85;
+  color: var(--text-link);
   font-weight: 700;
-  font-size: 35px;
+}
+
+.card-container > .card > .front > img {
+  object-fit: cover;
 }
 
 /*       Fix bug for IE      */

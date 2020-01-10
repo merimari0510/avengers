@@ -1,6 +1,10 @@
 .bg-dark {
   background-color: #0f0f0f!important;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 .navbar-dark .form-control:focus {
